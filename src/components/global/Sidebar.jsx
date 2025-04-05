@@ -8,6 +8,7 @@ import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlin
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 import { Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 const ProSidebar = () => {
@@ -24,12 +25,12 @@ const ProSidebar = () => {
                     </MenuItem>
                     <hr  style={{marginBottom: '100px'}} />
 
-                    <MenuItem suffix={<DashboardOutlinedIcon />} >
+                    <MenuItem suffix={<DashboardOutlinedIcon />} component={<Link to={"/"} /> } >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                             <h4>Dashboard</h4>
                         </Box>
                     </MenuItem>
-                    <MenuItem suffix={<PrivacyTipOutlinedIcon />} >
+                    <MenuItem suffix={<PrivacyTipOutlinedIcon />} component={<Link to={"/alert"} />} >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                             <h4>Alert</h4>
                         </Box>
