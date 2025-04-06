@@ -5,6 +5,7 @@ import { CssBaseline , ThemeProvider } from '@mui/material';
 import { ColorModeContext , useMode } from './theme';
 import Dashboard from './components/main/Dashboard';
 import Alert from './components/main/Alert'
+import ButtonPage from './components/main/ButtonPage';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Dashboard />} />
             <Route path='/alert' element={<Alert/>} />
+            <Route path='button' element={<ButtonPage />} />
           </Routes>
         </div>
       </ThemeProvider>
