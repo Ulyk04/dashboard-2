@@ -40,7 +40,7 @@ const ProSidebar = () => {
                             <h4>Button</h4>
                         </Box>
                     </MenuItem>
-                    <MenuItem suffix={<ViewAgendaOutlinedIcon />} >
+                    <MenuItem suffix={<ViewAgendaOutlinedIcon />} component={<Link to={"/cards"} />} >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                             <h4>Cards</h4>
                         </Box>
