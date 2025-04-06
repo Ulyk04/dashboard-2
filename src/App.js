@@ -6,6 +6,7 @@ import { ColorModeContext , useMode } from './theme';
 import Dashboard from './components/main/Dashboard';
 import Alert from './components/main/Alert'
 import ButtonPage from './components/main/ButtonPage';
+import CardPage from './components/main/CardPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/' element={<Dashboard />} />
             <Route path='/alert' element={<Alert/>} />
             <Route path='button' element={<ButtonPage />} />
+            <Route path='/cards' element={<CardPage />} />
           </Routes>
         </div>
       </ThemeProvider>
