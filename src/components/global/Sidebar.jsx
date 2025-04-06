@@ -35,7 +35,7 @@ const ProSidebar = () => {
                             <h4>Alert</h4>
                         </Box>
                     </MenuItem>
-                    <MenuItem suffix={<CircleOutlinedIcon />} >
+                    <MenuItem suffix={<CircleOutlinedIcon />} component={<Link to={"/button"} />} >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                             <h4>Button</h4>
                         </Box>
