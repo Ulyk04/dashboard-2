@@ -7,6 +7,7 @@ import Dashboard from './components/main/Dashboard';
 import Alert from './components/main/Alert'
 import ButtonPage from './components/main/ButtonPage';
 import CardPage from './components/main/CardPage';
+import TablePage from './components/main/TablePage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path='/alert' element={<Alert/>} />
             <Route path='button' element={<ButtonPage />} />
             <Route path='/cards' element={<CardPage />} />
+            <Route path='/tables' element={<TablePage/>} />
           </Routes>
         </div>
       </ThemeProvider>
