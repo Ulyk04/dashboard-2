@@ -45,7 +45,7 @@ const ProSidebar = () => {
                             <h4>Cards</h4>
                         </Box>
                     </MenuItem>
-                    <MenuItem suffix={<SpaceDashboardOutlinedIcon />} >
+                    <MenuItem suffix={<SpaceDashboardOutlinedIcon />} component={<Link to={"/tables"} />} >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                             
                             <h4>Tables</h4>
