@@ -53,8 +53,8 @@ const ProSidebar = () => {
                     </MenuItem>
                     <hr  style={{margin: '100px 0'}} />
                     <p>AUTH</p>
-                    <MenuItem suffix={<LoginOutlinedIcon />} >
-                        <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
+                    <MenuItem suffix={<LoginOutlinedIcon />} component={<Link to={"/login"} />}>
+                        <Box display="flex" justifyContent="center" alignItems="center" gap="10%"  >
                             
                             <h4>Login</h4>
                         </Box>
