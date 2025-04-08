@@ -8,6 +8,7 @@ import Alert from './components/main/Alert'
 import ButtonPage from './components/main/ButtonPage';
 import CardPage from './components/main/CardPage';
 import TablePage from './components/main/TablePage';
+import LoginPage from './components/main/LoginPage';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path='button' element={<ButtonPage />} />
             <Route path='/cards' element={<CardPage />} />
             <Route path='/tables' element={<TablePage/>} />
+            <Route path='/login' element={<LoginPage/>} />
           </Routes>
         </div>
       </ThemeProvider>
