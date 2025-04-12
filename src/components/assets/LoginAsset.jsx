@@ -1,7 +1,8 @@
 import React from 'react'
-import { SignInPage } from '@toolpad/core'
-import { AppProvider } from '@toolpad/core';
+import { SignInPage } from '@toolpad/core/SignInPage'
+import { AppProvider } from '@toolpad/core/AppProvider';
 import { useTheme } from '@mui/material/styles';
+import './LoginStyle.css'
 
 const providers = [{id: 'credentials' , name: 'Email and password'}]
 
@@ -25,6 +26,7 @@ const LoginAsset = () => {
             signIn={SignIn}
             providers={providers}
             slotProps={{ emailField: {autoFocus: false} , form: {noValidate: true} }}
+            sx={{position: 'relative' , left: '5%'}}
         />
     </div>
   )
