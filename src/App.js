@@ -9,7 +9,7 @@ import ButtonPage from './components/main/ButtonPage';
 import CardPage from './components/main/CardPage';
 import TablePage from './components/main/TablePage';
 import LoginPage from './components/main/LoginPage';
-
+import RegisterPage from './components/main/RegisterPage';
 
 function App() {
 
@@ -29,6 +29,7 @@ function App() {
             <Route path='/cards' element={<CardPage />} />
             <Route path='/tables' element={<TablePage/>} />
             <Route path='/login' element={<LoginPage/>} />
+            <Route path='register' element={<RegisterPage/>} />
           </Routes>
         </div>
       </ThemeProvider>
