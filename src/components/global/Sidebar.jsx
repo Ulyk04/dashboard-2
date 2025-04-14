@@ -59,7 +59,7 @@ const ProSidebar = () => {
                             <h4>Login</h4>
                         </Box>
                     </MenuItem>
-                    <MenuItem suffix={ <ExitToAppOutlinedIcon />} >
+                    <MenuItem suffix={ <ExitToAppOutlinedIcon />} component={<Link to={"/register"} />} >
                         <Box display="flex" justifyContent="center" alignItems="center" gap="10%" >
                            
                             <h4>Register</h4>
