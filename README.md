@@ -6,7 +6,7 @@ This repository had a project for frontend developers( Dashboard)
 
 1. **Counter** - Dashboard
    
-   ![Dashboard](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/src/images/dashboard.png)
+   ![Dashboard](https://raw.githubusercontent.com/Ulyk04/dashboard-2/master/src/images/dashboard.png)
 
 2. **Alert** - 
 
