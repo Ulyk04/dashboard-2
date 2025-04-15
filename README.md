@@ -10,19 +10,19 @@ This repository had a project for frontend developers( Dashboard)
 
 2. **Alert** - 
 
-    ![ALert](https://raw.githubusercontent.com/Ulyk04/mini-projects-react/main/src/images/dashboard2.png)
+    ![ALert](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/src/images/dashboard2.png)
    
 3. **Button** -
    
-    ![Button](https://raw.githubusercontent.com/Ulyk04/mini-projects-react/main/src/images/dashboard3.png)
+    ![Button](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/src/images/dashboard3.png)
     
 5. **Table** - 
 
-    ![Table](https://raw.githubusercontent.com/Ulyk04/mini-projects-react/main/src/images/dashboard4.png)
+    ![Table](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/src/images/dashboard4.png)
 
 7. **Login and Sign up** - 
 
-    ![Login and Sign UP](https://raw.githubusercontent.com/Ulyk04/mini-projects-react/main/src/images/dashboard5.png)
+    ![Login and Sign UP](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/src/images/dashboard5.png)
 
 
 
