@@ -18,7 +18,7 @@ This repository had a project for frontend developers( Dashboard)
     
 5. **Table** - 
 
-    ![Table](https://raw.githubusercontent.com/Ulyk04/dashboard-2/main/master/images/dashboard4.png)
+    ![Table](https://raw.githubusercontent.com/Ulyk04/dashboard-2/master/src/images/dashboard4.png)
 
 7. **Login and Sign up** - 
 
