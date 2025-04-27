@@ -45,19 +45,6 @@ This repository had a project for frontend developers( Dashboard)
    npm start
    ```
 
-## 🖼️ Adding Images to README
-
-To add images to this file, upload them to the `images/` folder (or use internet links) and add them to `README.md` like this:
-
-```md
-![Image Title](images/file_name.jpg)
-```
-
-If the image is hosted on GitHub, use its direct link:
-
-```md
-![Counter Project](https://raw.githubusercontent.com/YOUR_GITHUB/YOUR_REPOSITORY/main/images/counter.jpg)
-```
 
 
 
