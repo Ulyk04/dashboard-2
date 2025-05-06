@@ -51,3 +51,7 @@ This repository had a project for frontend developers( Dashboard)
 ---
 
 ⭐ If you liked these projects, don't forget to give a star! 😊
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
